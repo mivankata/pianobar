@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almendra+Display&family=Astloch&family=Work+Sans:wght@100;200&display=swap');
+
+
+body {
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 52, 1) 100%);
+}
+
+h1,
+h2,
+p {
+    color: white;
+    text-align: center;
+
+}
+
+h1 {
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-size: 120px;
+    margin-top: 80px;
+    margin-bottom: -10px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px blue, 0 0 40px blue, 0 0 50px blue, 0 0 60px blue, 0 0 70px blue;
+}
+
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    /*    text-transform: uppercase;*/
+    letter-spacing: 2px;
+    margin-bottom: 130px;
+    color: #544afc;
+}
+
+p {
+    font-family: 'Work Sans', sans-serif;
+    color: #544afc;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+button {
+    border-radius: 6px;
+    font-size: 15px;
+    text-transform: uppercase;
+    width: 40px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+    color: blue;
+
+}
+
+
+.button1 {
+
+    background-color: black;
+    border: 2px solid blue;
+    height: 90px;
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 10px blue, 0 0 20px blue, 0 0 30px blue, 0 0 60px blue, 0 0 10px blue;
+    margin-bottom: -15px;
+    z-index: 90;
+    position: relative;
+}
+
+.button2 {
+
+    background-color: aliceblue;
+    border: 1px solid blue;
+    /*    box-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 20px blue, 0 0 10px blue, 0 0 50px blue, 0 0 60px blue, 0 0 50px blue;   */
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 10px blue, 0 0 20px blue, 0 0 30px blue, 0 0 60px blue, 0 0 10px blue;
+
+    margin-bottom: 20px;
+    height: 120px;
+    z-index: -1;
+    position: relative;
+}
+
+
